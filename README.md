@@ -11,7 +11,7 @@ wget https://raw.githubusercontent.com/dee-oh-double-gee/YouTubeSubCount.py/mast
 
 sudo nano YouTubeSubCount.py 
 ```
-Edit the CHANNEL_ID, YOUTUBE_DATA_API_V3, and YOUR CHANNEL parts of the script to your channel ID (cannot be the channel name, must be the full ID), then paste in your youtube data API key, and then you can edit the print line to say whatever you want. CTRL+x to close and save.
+Edit the CHANNEL_ID, YOUTUBE_DATA_API_V3, and YOUR CHANNEL parts of the script to your channel ID (cannot be the channel name, must be the full ID), then paste in your youtube data API key, and then you can edit the print line to say whatever you want. If you use nano to edit the script use CTRL+x to close and save.
 ```
 sudo python YouTubeSubCount.py
 ```
