@@ -14,7 +14,7 @@ while True:
 
 #while True:
 
- time.sleep(60)
+ time.sleep(5)
  os.system('clear')
  print "YOUR CHANNEL Channel Stats:"
  print "Total number of subscribers: %s" % (subs)
