@@ -6,7 +6,7 @@ import os
 
 while True:
 
- r = requests.get('https://www.googleapis.com/youtube/v3/channels?part=statistics&id=YOUTUBE_IT&key=YOUTUBE_DATA_API_V3')
+ r = requests.get('https://www.googleapis.com/youtube/v3/channels?part=statistics&id=CHANNEL_ID&key=YOUTUBE_DATA_API_V3')
  j = r.json()
 
  subs = j['items'][0]['statistics']['subscriberCount']
@@ -16,7 +16,7 @@ while True:
 
  time.sleep(60)
  os.system('clear')
- print "Beau Knows Tech... Stuff Channel Stats:"
+ print "YOUR CHANNEL Channel Stats:"
  print "Total number of subscribers: %s" % (subs)
  print "Total number of views: %s" % (views)
 
