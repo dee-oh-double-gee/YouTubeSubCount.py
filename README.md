@@ -1,6 +1,12 @@
 # YouTubeSubCount.py
 
 I have only tested this on the latest version of Rasbian.
+If you are on ubuntu desktop you will probably have to install pip and the python request library:
+```
+sudo apt-get update && sudo apt-get -y upgrade
+sudo apt-get install python-pip
+sudo pip install requests
+```
 
 **Instructions**
 
