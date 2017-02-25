@@ -1,12 +1,6 @@
 # YouTubeSubCount.py
 
 I have only tested this on the latest version of Rasbian.
-If you are on ubuntu desktop you will probably have to install pip and the python request library:
-```
-sudo apt-get update && sudo apt-get -y upgrade
-sudo apt-get install python-pip
-sudo pip install requests
-```
 
 **Instructions**
 
@@ -25,3 +19,12 @@ sudo python YouTubeSubCount.py
 The script will update every 5 seconds. My channel is small so I only have it update every minute but by default it refreshes every 5 seconds. 
 
 This is my first python script so please help me out and make changes that could improve the script.
+
+**for ubuntu desktop**
+
+If you are on ubuntu desktop you will probably have to install pip and the python request library:
+```
+sudo apt-get update && sudo apt-get -y upgrade
+sudo apt-get install python-pip
+sudo pip install requests
+```
