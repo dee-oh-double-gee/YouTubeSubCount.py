@@ -16,7 +16,7 @@ Edit the CHANNEL_ID, YOUTUBE_DATA_API_V3, and YOUR CHANNEL parts of the script t
 ```
 sudo python YouTubeSubCount.py
 ```
-The script will update every 5 seconds. My channel is small so I only have it update every minute but by default it refreshes every 5 seconds. 
+The script will update every 5 seconds. My channel is small so I only have it update every minute but by default it refreshes every 5 seconds. You can change this by editing the line "time.sleep(5)" to " time.sleep(X)" where X is how many seconds you want it to refresh at.
 
 This is my first python script so please help me out and make changes that could improve the script.
 
