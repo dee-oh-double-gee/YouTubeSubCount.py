@@ -12,7 +12,6 @@ while True:
  subs = j['items'][0]['statistics']['subscriberCount']
  views = j['items'][0]['statistics']['viewCount']
 
-#while True:
 
  time.sleep(5)
  os.system('clear')
